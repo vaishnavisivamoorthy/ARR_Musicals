@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARR_Musicals</title>
+    <style>
+        body{
+            background-image: url('images/background.avif');
+            background-size: cover;
+        }
+        h1{
+            color:teal;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 6px 6px 4px rgb(167, 177, 177);
+        }
+        
+        .menu ul li{
+            list-style-type:none;
+            display: inline;
+            padding: 65px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: teal;
+        }
+        .menu ul a{
+             text-decoration-line: none;
+        }
+        .menu ul li:hover{
+            color: teal;
+            text-shadow:6px 6px 4px rgb(167, 177, 177);
+            font-size: 25px;
+        }
+        .content p{
+            margin:100px;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            border: 3px solid grey;
+            color: steelblue;
+            border-radius: 25px;
+            font-size: 20px;
+        }
+        .content p:hover{
+            scale: 1.1;
+            color:white;
+            background-color: steelblue;
+        }
+        .music{
+            display: flex;
+            flex-direction: row;
+            margin: 25px;
+        }
+        .music button{
+            color: teal;
+            background-color: oldlace;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 15px;
+            margin: 28px;
+            font-size: 20px;
+            border: 3px solid grey;
+            border-radius: 20px;
+        }
+        .music button:hover{
+            background-color: teal;
+            color:oldlace;
+            box-shadow: 3px 3px 2px grey;
+        }
+        footer p{
+            text-align: center;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-top: 52px;
+            background-color: grey;
+            border-radius: 500px;
+        }
+        #home:hover{
+            box-shadow: 6px 6px 4px rgb(167, 177, 177);
+            scale: 1.2;
+        }
+        #fav{
+            border-radius: 100px;
+        }
+        #fav:hover{
+            box-shadow: 6px 6px 4px grey;
+            scale: 1.2;
+        }
+        #profile{
+            border-radius: 100px;
+        }
+        #profile:hover{
+            box-shadow: 6px 6px 4px grey;
+            scale: 1.2;
+        }
+    </style>
+</head>
+<body>
+    <h1>ARR MUSICALS</h1>
+    <header class="menu">
+    <ul>
+        <li><a href="Home.html"><img src="images/homeimg.jpg" width="50px" height="50px" id="home"></a></li>
+        <li><a href="#"><img src="images/fav.jpg" alt="favourite" height="50px" width="50px" id="fav"></a></li>
+        <li>
+         <a href="#">
+        <input type="text" name="Query"placeholder="search your music" style="width: 380px;height: 28px; border:5px solid grey; border-radius: 50px;">
+        </a></li>
+        <li><a href="Account.html"><img src="images/profile.png" width="50px" height="50px" id="profile"></a></li>
+        <li style="padding-left:10px;"><a href="index.html">Logout</a></li>
+    </ul>
+    </header>
+    <section class="content">
+    <p>
+  <strong>ARR_Musicals</strong> is a music app dedicated to the timeless works of A.R. Rahman. 
+  It lets you explore his musical journey across different eras, so you can relive the magic of each period. 
+  Whether you want to enjoy his early compositions or his latest creations, simply pick a decade below and immerse yourself in the melodies. 
+  Discover, listen, and celebrate the genius of ARR!
+</p>
+
+    <div class="music">
+        <a href="1992_1995.html"><button>1992-1995</button></a>
+        <a href="1996_2000.html"><button>1996-2000</button></a>
+        <a href="2001_2005.html"><button>2001-2005</button></a>
+        <a href="2006_2010.html"><button>2006-2010</button></a>
+        <a href="2011_2015.html"><button>2011-2015</button></a>
+        <a href="2016_2020.html"><button>2016-2020</button></a>
+        <a href="2021_present.html"><button>2021-Present</button></a>
+    </div>
+    </section>
+    <footer>
+        <p>&copy:copywright ARR_Musicals</p>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARR_Musicals_1996_2000</title>
+    <style>
+        body{
+            background-image: url('images/background.avif');
+            background-size: cover;
+        }
+        h1{
+            color:teal;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 6px 6px 4px rgb(167, 177, 177);
+        }
+        
+        .menu ul li{
+            list-style-type:none;
+            display: inline;
+            padding: 125px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: teal;
+        }
+        .menu ul a{
+             text-decoration-line: none;
+        }
+        .menu ul li:hover{
+            color: teal;
+            text-shadow:6px 6px 4px rgb(167, 177, 177);
+            font-size: 25px;
+        }
+        .content p{
+            margin:100px;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            border: 3px solid grey;
+            color: steelblue;
+            border-radius: 25px;
+            font-size: 20px;
+        }
+        .content p:hover{
+            scale: 1.1;
+            color:white;
+            background-color: steelblue;
+        }
+        .music{
+            display: flex;
+            flex-direction: row;
+            margin: 25px;
+        }
+        .music button{
+            color: teal;
+            background-color: oldlace;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 15px;
+            margin: 28px;
+            font-size: 20px;
+            border: 3px solid grey;
+            border-radius: 20px;
+        }
+        .music button:hover{
+            background-color: teal;
+            color:oldlace;
+            box-shadow: 3px 3px 2px grey;
+        }
+        footer p{
+            text-align: center;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-top: 70px;
+            background-color: grey;
+            border-radius: 500px;
+        }
+        #home:hover{
+            box-shadow: 6px 6px 4px rgb(167, 177, 177);
+            scale: 1.2;
+        }
+        .top ul{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px;
+            margin: 0px;
+        }
+        .top ul li {
+            display: inline-block;
+        }
+        .top ul li:hover{
+            border-radius: 100px;
+            box-shadow: 6px 6px 4px rgb(167, 177, 177);
+            scale: 1.2;
+        }
+        .top ul li img{
+            border-radius: 100px;
+        }
+        .audio-container {
+    position: relative;   /* allows layering */
+    display: inline-block;
+}
+
+.album-art {
+    width: 300px;         /* adjust size */
+    height: 1000px;
+    display: block;
+    object-fit: contain;
+    object-position: top;
+}
+
+.audio-player {
+    position: absolute;   /* places audio over image */
+    bottom: 10px;         /* adjust vertical position */
+    left: 50%;            /* center horizontally */
+    transform: translateX(-50%); /* semi-transparent background */
+    border-radius: 10px;
+    z-index: 10;
+}
+audio:hover{
+    box-shadow: 6px 6px 4px grey;
+    border-radius: 50px;
+}
+.music1{
+    width:300px; 
+}
+.music1 div{
+    display: flex;
+    flex-direction: row;
+}
+.music1 img{
+    width:300px;
+    
+}
+.music1 audio{
+    width:300px;
+}
+        h2{
+            color:white;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 6px 6px 4px rgb(203, 211, 211);
+            background-color: slategray;
+            border-radius: 100px;
+        }
+        .musics{
+            display: flex;
+        }
+        audio:hover{
+            box-shadow: 6px 6px 4px grey;
+            border-radius: 50px;
+        }
+        .music1 img:hover{
+            box-shadow: 6px  6px 4px grey;
+            transform: scale(1.1);
+        }
+        .music1{
+            width:300px;
+            padding: 5px; 
+            padding-left: 100px;
+        }
+        .music1 div{
+            display: flex;
+            flex-direction: row;
+        }
+        .music1 img{
+            height:200px;
+            width:300px; 
+            border-radius: 20px;
+        }
+        .music1 audio{
+            width:300px;
+        }
+        .music1 audio:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+    <ul>
+    <li ><a href="1992.html"><img src="images\back.webp" width="50px" height="50px"></a></li>
+    <li ><a href="2001.html"><img src="images\front.jpg" width="50px" height="50px"></a></li>
+    </ul>
+    </header>
+    <h1>ARR MUSICALS</h1>
+    <section class="menu">
+      <ul>
+        <li><a href="index.html"><img src="images/homeimg.jpg" width="50px" height="50px" id="home"></a></li>
+       <li>
+         <a href="#">
+        <input type="text" name="Query"placeholder="search your music" style="width: 380px;height: 28px; border:5px solid grey; border-radius: 50px;">
+        </a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+    </section>
+    <!--Indian Movie-->
+    <h2>INDIAN</h2>
+    <section class="musics"> 
+    <div class="music1">  
+    <div>
+    <img src="images/1996/indian/akkanda.webp" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/indian/kappaleri.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/indian/mayamachindra.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+
+    <section class="musics">
+    <div class="music1" style="padding-left: 300px;margin: 10px;">  
+    <div>
+    <img src="images/1996/indian/pachaikiligal.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1" style="margin: 10px;">  
+    <div>
+    <img src="images/1996/indian/telephone.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+
+    <!--Jeans Movie-->
+    <h2 style="margin-top: 30px;">JEANS</h2>
+    <section class="musics"> 
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Jeans/anbe.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Jeans/colombus.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Jeans/enakeenaka.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+
+    <section class="musics">
+    <div class="music1" style="padding-left:90px;margin:3px;margin-left: 0px;">  
+    <div>
+    <img src="images/1996/Jeans/kannodu.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1" style="margin: 10px;">  
+    <div>
+    <img src="images/1996/Jeans/poovukul.webp" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1" style="margin: 10px;">  
+    <div>
+    <img src="images/1996/Jeans/varayo.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+    <!--Minsarakanavu Movie-->
+    <h2 style="margin-top: 30px;">MINSARA KANAVU</h2>
+    <section class="musics"> 
+    <div class="music1">  
+    <div>
+    <img src="images/1996/MinsaraKanavu/Anbendra.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/MinsaraKanavu/Maana_Madurai.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/MinsaraKanavu/PooPookumOsai.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+
+    <section class="musics">
+    <div class="music1" style="padding-left:90px;margin:3px;margin-left: 0px;">  
+    <div>
+    <img src="images/1996/MinsaraKanavu/strawberry.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1" style="margin: 10px;">  
+    <div>
+    <img src="images/1996/MinsaraKanavu/thangathamarai.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1" style="margin: 10px;">  
+    <div>
+    <img src="images/1996/MinsaraKanavu/vennilave.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+    <!--Padayappa Movie-->
+    <h2 style="margin-top: 30px;">PADAYAPPA</h2>
+    <section class="musics"> 
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Padayappa/EnPeruPadayappa.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Padayappa/kikkuyeruthey.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Padayappa/Minssara.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+
+    <section class="musics">
+    <div class="music1" style="padding-left: 300px;margin: 10px;">  
+    <div>
+    <img src="images/1996/Padayappa/suthisuthi.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1" style="margin: 10px;">  
+    <div>
+    <img src="images/1996/Padayappa/vetrikodi.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+
+     <!--Rhythm Movie-->
+    <h2 style="margin-top: 30px;">RHYTHM</h2>
+    <section class="musics"> 
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Rhythm/anbaeidhu.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Rhythm/Kaatre.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1">  
+    <div>
+    <img src="images/1996/Rhythm/nadhiye.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+
+    <section class="musics">
+    <div class="music1" style="padding-left: 300px;margin: 10px;">  
+    <div>
+    <img src="images/1996/Rhythm/pathikuchu.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+
+    <div class="music1" style="margin: 10px;">  
+    <div>
+    <img src="images/1996/Rhythm/Thaniye.jpg" alt="Album Art" >
+    </div>
+    <div>
+    <audio controls src="" type="audio/mpeg" >
+    </audio>
+    </div>
+    </div>
+    </section>
+    <footer>
+        <p>&copy:copywright ARR_Musicals</p>
+    </footer>
+</body>
+</html>

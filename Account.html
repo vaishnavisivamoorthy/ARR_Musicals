@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <style>
+        body{
+            background-image: url('images/background.avif');
+            background-size: cover;
+        }
+        h1{
+            color:teal;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 6px 6px 4px rgb(167, 177, 177);
+        }
+        
+        .menu ul li{
+            list-style-type:none;
+            display: inline;
+            margin: 10px;
+            padding:50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: teal;
+        }
+        .menu ul a{
+             text-decoration-line: none;
+        }
+        .menu ul li:hover{
+            color: teal;
+            text-shadow:6px 6px 4px rgb(167, 177, 177);
+            font-size: 25px;
+        }
+        footer p{
+            text-align: center;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            margin-top: 52px;
+            background-color: grey;
+            border-radius: 500px;
+        }
+        #home:hover{
+            box-shadow: 6px 6px 4px rgb(167, 177, 177);
+            scale: 1.2;
+        }
+        #fav{
+            border-radius: 100px;
+            margin-left:300px;
+        }
+        #fav:hover{
+            box-shadow: 6px 6px 4px grey;
+            scale: 1.2;
+        }
+        #Account {
+            text-align: center;
+            padding:10px;
+            margin:10px;
+        }
+        #Account label{
+            color:teal;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 6px 6px 4px rgb(167, 177, 177);
+        }
+        #Account input{
+            color:rgb(30, 175, 175);
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 6px 6px 4px rgb(167, 177, 177);
+            padding:8px;
+        }
+        #Account input:hover{
+            color:white;
+            background-color: rgb(4, 170, 170);
+            border: 2px solid grey;
+            box-shadow: 6px 6px 4px grey;
+            border-radius: 5px;
+        }
+        #Account button{
+            color:white;
+            background-color: rgb(4, 170, 170);
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            margin:10px;
+            font-size: 20px;
+        }
+        #Account button:hover{
+            box-shadow: 6px 6px 4px grey;
+            transform: scale(1.2);
+            border-radius: 100px;
+        }
+        #download{
+            padding-left :100px;
+        }
+        #download button{
+            color:white;
+            background-color:  rgb(4, 170, 170);
+            font-family: 'Times New Roman', Times, serif;
+            padding: 10px;
+            margin:10px;
+            font-size: 20px;
+            border-radius: 5px;
+            margin-left:500px;
+        }
+        #download button:hover{
+            box-shadow: 6px 6px 4px grey;
+            transform: scale(1.2);
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ARR MUSICALS</h1>
+    <header class="menu">
+    <ul>
+        <li><a href="Home.html"><img src="images/homeimg.jpg" width="50px" height="50px" id="home"></a></li>
+        <li style="padding-left:10px;"><a href="index.html">Logout</a></li>
+    </ul>
+    </header>
+
+    <section id="Account">
+        <h1>ACCOUNT DETAILS</h1>
+        <label>NAME:</label><input type="text" placeholder="enter username"><br><br>
+        <label>EMAIL:</label><input type="email" placeholder="enter email"><br><br>
+        <label>PROFILE IMAGE:</label><input type="file" placeholder="upload profile photo"><br><br>
+        <button>Save</button><button>Edit</button>
+    </section>
+    <section id="download">
+    <a href="#"><img src="images/fav.jpg" alt="favourite" height="50px" width="50px" id="fav"></a>
+    <button >Downloads</button>
+    </section>
+    <footer>
+        <p>&copy:copywright ARR_Musicals</p>
+    </footer>
+</body>
+</html>
